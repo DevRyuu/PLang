@@ -3,5 +3,6 @@
         "iostream": "cpp",
         "typeinfo": "cpp",
         "ostream": "cpp"
-    }
+    },
+    "dotnet.defaultSolution": "c#.sln"
 }

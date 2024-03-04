@@ -1,3 +1,6 @@
+.venv/
 .vscode/
 .vscode_windows/
 .vscode_wsl/
+bin/
+obj/
