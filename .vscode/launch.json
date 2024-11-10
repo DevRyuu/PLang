@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // Go 디버깅 설정
+        {
+            "name": "Go: Launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}"
+        },
+
+        // JavaScript (Node.js) 디버깅 설정
+        {
+            "name": "JavaScript: Launch",
+            "type": "node",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
